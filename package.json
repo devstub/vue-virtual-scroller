@@ -1,11 +1,17 @@
 {
-  "name": "vue-virtual-scroller",
-  "description": "Smooth scrolling for any amount of data",
-  "version": "1.0.0-rc.2",
+  "name": "vue-virtual-scroller-devstub",
+  "description": "Smooth scrolling for any amount of data - reworked version",
+  "version": "2.0.0",
   "author": {
     "name": "Guillaume Chau",
     "email": "guillaume.b.chau@gmail.com"
   },
+  "contributors": [
+    {
+      "name": "Faruk Brbovic",
+      "email": "fbrbovic@devstub.com"
+    }
+  ],
   "keywords": [
     "vue",
     "vuejs",
@@ -26,12 +32,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Akryum/vue-virtual-scroller.git"
+    "url": "git+https://github.com/devstub/vue-virtual-scroller.git"
   },
   "bugs": {
-    "url": "https://github.com/Akryum/vue-virtual-scroller/issues"
+    "url": "https://github.com/devstub/vue-virtual-scroller/issues"
   },
-  "homepage": "https://github.com/Akryum/vue-virtual-scroller#readme",
+  "homepage": "https://github.com/devstub/vue-virtual-scroller#readme",
   "dependencies": {
     "scrollparent": "^2.0.1",
     "vue-observe-visibility": "^0.4.4",

@@ -36,6 +36,7 @@
           :item="view.item"
           :index="view.nr.index"
           :active="view.nr.used"
+          :hover="hoverKey === view.nr.key"
         />
       </div>
     </div>

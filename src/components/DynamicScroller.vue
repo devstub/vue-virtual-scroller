@@ -10,13 +10,14 @@
     @visible="onScrollerVisible"
     v-on="listeners"
   >
-    <template slot-scope="{ item: itemWithSize, index, active }">
+    <template slot-scope="{ item: itemWithSize, index, active, hover }">
       <slot
         v-bind="{
           item: itemWithSize.item,
           index,
           active,
-          itemWithSize
+          itemWithSize,
+          hover
         }"
       />
     </template>
